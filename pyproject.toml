@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "screenshot_emrysr"
+version = "0.0.1"
+authors = [
+  { name="Emrys Roberts", email="emrys.r@gmail.com" },
+]
+description = "Script to return a website screenshot in base64"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/emrysr/screenshot"
+"Bug Tracker" = "https://github.com/emrysr/screenshot/issues"
